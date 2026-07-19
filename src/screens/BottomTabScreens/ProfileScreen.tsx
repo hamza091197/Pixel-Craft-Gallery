@@ -30,13 +30,13 @@ const ProfileScreen = ({ navigation }: ProfileScreenProps) => {
           icon="share-android"
           title="Share App"
           onPress={() =>
-            Share.share({ message: 'Check out WallSpace wallpaper app!' })
+            Share.share({ message: 'Check out PixelCraft Gallery — beautiful wallpapers for your device! 🎨' })
           }
         />
         <ProfileRow
           icon="mail"
           title="Send Feedback"
-          onPress={() => Linking.openURL('mailto:paragmer2001@gmail.com')}
+          onPress={() => Linking.openURL('mailto:hamzakhalid@gmail.com')}
         />
       </View>
 
@@ -50,11 +50,11 @@ const ProfileScreen = ({ navigation }: ProfileScreenProps) => {
           icon="shield"
           title="Privacy Policy"
           onPress={() =>
-            Linking.openURL('https://parag-mer.github.io/wallspace-policy/')
+            Linking.openURL('https://pixelcraft.gallery/privacy-policy')
           }
         />
       </View>
-      <Text style={styles.versionText}>WallSpace | v1.0</Text>
+      <Text style={styles.versionText}>PixelCraft Gallery | v1.0</Text>
     </SafeAreaView>
   );
 };

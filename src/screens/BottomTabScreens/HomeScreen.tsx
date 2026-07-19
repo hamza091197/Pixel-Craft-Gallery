@@ -71,7 +71,7 @@ const HomeScreen = ({ navigation }: HomeScreenProps) => {
     <SafeAreaView style={styles.container} edges={['top']}>
       {/* Header */}
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>WallSpace</Text>
+        <Text style={styles.headerTitle}>PixelCraft Gallery</Text>
         <Octicons name="search" size={20} color="white" onPress={() => navigation.getParent()?.navigate('SearchScreen')} />
       </View>
 

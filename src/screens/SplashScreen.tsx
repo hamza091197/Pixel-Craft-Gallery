@@ -65,7 +65,7 @@ const SplashScreen = ({ navigation }: SplashScreenProps) => {
   return (
     <SafeAreaView style={styles.container}>
       <Animated.Image
-        source={require('../../assets/WallSpaceLogo.png')}
+        source={require('../../assets/PixelCraftLogo.png')}
         style={[
           styles.logo,
           {
@@ -81,8 +81,8 @@ const SplashScreen = ({ navigation }: SplashScreenProps) => {
           alignItems: 'center',
         }}
       >
-        <Text style={styles.title}>WallSpace</Text>
-        <Text style={styles.subtitle}>Bring Your Screen to Life</Text>
+        <Text style={styles.title}>PixelCraft Gallery</Text>
+        <Text style={styles.subtitle}>Bring Your Screen to Life ✨</Text>
       </Animated.View>
     </SafeAreaView>
   );

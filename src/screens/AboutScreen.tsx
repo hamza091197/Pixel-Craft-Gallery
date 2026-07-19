@@ -29,10 +29,10 @@ export const AboutScreen = ({ navigation }: AboutScreenProps) => {
       {/* Hero */}
       <Animated.View entering={FadeInUp.duration(400)} style={styles.hero}>
         <Image
-          source={require('../../assets/WallSpaceLogo.png')}
+          source={require('../../assets/PixelCraftLogo.png')}
           style={{ width: 100, height: 100, borderRadius: 16 }}
         />
-        <Text style={styles.appName}>WallSpace</Text>
+        <Text style={styles.appName}>PixelCraft Gallery</Text>
         <Text style={styles.tagline}>Beautiful wallpapers for your device</Text>
 
         <Text style={styles.version}>v1.0.0</Text>
@@ -44,7 +44,7 @@ export const AboutScreen = ({ navigation }: AboutScreenProps) => {
         style={styles.infoCard}
       >
         <Text style={styles.label}>Developed by</Text>
-        <Text style={styles.developer}>Parag Mer</Text>
+        <Text style={styles.developer}>Hamza Khalid</Text>
 
         <Text style={styles.credit}>Wallpapers provided by Pexels</Text>
       </Animated.View>
@@ -64,7 +64,7 @@ export const AboutScreen = ({ navigation }: AboutScreenProps) => {
 
         <Pressable
           style={styles.row}
-          onPress={() => Linking.openURL('mailto:paragmer2001@gmail.com')}
+          onPress={() => Linking.openURL('mailto:hamzakhalid@gmail.com')}
         >
           <Text style={styles.rowText}>Contact Developer</Text>
           <Icon name="chevron-right" size={18} color="#A8B5DB" />
