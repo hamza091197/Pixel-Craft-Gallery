@@ -16,16 +16,6 @@
 
 ---
 
-## 📸 Screenshots
-
-| Splash | Home | Categories | Viewer | Preview |
-|--------|------|------------|--------|---------|
-| 🌟 | 🏠 | 🗂️ | 👁️ | 🖼️ |
-
-> *Screenshots coming soon — run the app to see it in action!*
-
----
-
 ## ✨ Features
 
 - 🔥 **Trending Wallpapers** — Browse curated, high-resolution wallpapers updated daily
